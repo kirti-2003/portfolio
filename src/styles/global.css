@@ -1,1 +1,7 @@
-@import "tailwindcss";
+@import "tailwindcss";/* Global styles */
+
+body {
+  background-color: #0B0B0F;
+  color: #F5F5F7;
+  font-family: Inter, system-ui, sans-serif;
+}
