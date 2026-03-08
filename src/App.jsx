@@ -1,23 +1,27 @@
 import Navbar from "./components/layout/Navbar"
 import Hero from "./sections/Hero"
 import About from "./sections/About"
-// import Projects from "./sections/Projects"
-// import Skills from "./sections/Skills"
-// import Contact from "./sections/Contact"
-// import Footer from "./components/layout/Footer"
+import Projects from "./sections/Projects"
+import Skills from "./sections/Skills"
+import Contact from "./sections/Contact"
+import FeaturedProject from "./sections/FeaturedProject"
+import Footer from "./components/layout/Footer"
 
 function App() {
   return (
-    <div className="min-h-screen">
+    <>
       <Navbar />
       <Hero />
       <About />
-      {/* <Projects />
+      <Projects />
+      <FeaturedProject />
       <Skills />
       <Contact />
-      <Footer /> */}
-    </div>
+      <Footer />
+    </>
   )
 }
+
+
 
 export default App
