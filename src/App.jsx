@@ -11,12 +11,20 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <FeaturedProject />
-      <Skills />
-      <Contact />
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <FeaturedProject />
+        <Skills />
+        <Contact />
+        <section id="blog" className="max-w-5xl mx-auto px-8 py-20 text-center">
+          <p className="text-slate-600 text-sm">Blog — Coming soon</p>
+        </section>
+        <section id="faq" className="max-w-5xl mx-auto px-8 py-20 text-center">
+          <p className="text-slate-600 text-sm">FAQ — Coming soon</p>
+        </section>
+      </main>
       <Footer />
     </>
   )
